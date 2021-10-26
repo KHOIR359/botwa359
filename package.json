@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "start": "node app",
         "cy:run": "cypress run --record --spec 'automation/gform.spec.js'",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
