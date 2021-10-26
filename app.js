@@ -1,4 +1,3 @@
-const cypress = require('cypress')
 const qrcode = require('qrcode-terminal');
 const helper = require('./helper')
 const base64ToImage = require('base64-to-image');
