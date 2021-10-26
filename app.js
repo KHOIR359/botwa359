@@ -18,7 +18,8 @@ if (fs.existsSync(SESSION_FILE_PATH)) {
 
 // Use the saved values
 const client = new Client({
-    // puppeteer: { headless: false },
+    puppeteer: { headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'], },
+
     session: sessionData
 });
 
